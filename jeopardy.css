@@ -1,0 +1,82 @@
+body {
+    background-color: #119df4;
+  }
+  
+  header {
+    color: rgb(6, 2, 2);
+    text-align: center;
+  }
+  
+  header > h1 {
+    font-size: 3em;
+    margin-bottom: 0;
+  }
+  
+  #jeopardy {
+    text-align: center;
+    font-size: 9pt;
+    background-color: #c881e4;
+    color: rgb(16, 12, 12);
+    border-collapse: collapse;
+    margin: 0 auto;
+  }
+  
+  #jeopardy th, #jeopardy td {
+    border: solid 1px rgb(1, 0, 3);
+    width: 10em;
+    padding: 0.5em;
+  }
+  
+  #jeopardy td.disabled {
+    background-color: #28a200
+  }
+  
+  th {
+    text-transform: uppercase;
+    font-family: Helvetica, sans-serif;
+    font-weight: bold;
+    height: 4em;
+    text-shadow: darkgoldenrod 1px 1px;
+  }
+  
+  td {
+    height: 7em;
+    font-family: Copse, serif;
+  }
+  
+  button, td {
+    cursor: pointer;
+  }
+  
+  .fa-question-circle {
+    pointer-events: none;
+  }
+  
+  #start {
+    background-color: #2ab54a;
+    padding: 1em 3em;
+    border: none;
+    border-radius: 0.5em;
+    color: white;
+    font-size: 1em;
+    margin: 0.5em 0;
+  }
+  
+  #start:hover,
+  #start.disabled {
+    background-color: #095e32;
+  }
+  
+  .disabled {
+    cursor: not-allowed;
+  }
+  
+  #spin-container {
+    font-size: 12em;
+    text-align: center;
+    color: rgb(238, 232, 232);
+    margin: 25px;
+    display: none;
+  }
+
+  //just coloring and display like the given demo
